@@ -5,11 +5,11 @@ To run the full program as python, execute the main.py.
 To run as executable (exe), execute DoubleEncrypt.exe.
 
 <b>COMMANDS:</b>
-c - create and upload a new key/crypto
-e - encrypt using currently uploaded crypto
-d - decrypt using currently uploaded crypto
-clear - clear screen
-exit - exit terminal
+c - create and upload a new key/crypto<br/>
+e - encrypt using currently uploaded crypto<br/>
+d - decrypt using currently uploaded crypto<br/>
+clear - clear screen<br/>
+exit - exit terminal<br/>
 
 <b>REMARKS:</b>
 If you plan on decrypting a message, DO NOT forget<br/>
