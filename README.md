@@ -15,5 +15,5 @@ exit - exit terminal<br/>
 If you plan on decrypting a message, DO NOT forget<br/>
 the seed and double encryption key you used to create the crypto.<br/>
 Because if new crypto is uploaded to database, there is no going back <br/>unless you have Seed and DE. <br/>
-When encrypting and decrypting with a key, remember the the code reads for spaces. If you do not copy <br/>
-white space when placing encrypted code into to decrypter, the outcome will be wrong.
+When encrypting and decrypting with a key, remember that the code reads for spaces. If you do not copy <br/>
+white space when placing encrypted code into the decrypter, the outcome will be wrong.
