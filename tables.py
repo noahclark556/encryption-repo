@@ -9,7 +9,15 @@ alphabet = make.alphabet
 
 def parse():
     #connection = mysql.connector.connect(host='localhost', database='encryption', user='root', password='')
-    connection = mysql.connector.connect(host='remotemysql.com', database='7le0c8z5UM', user='7le0c8z5UM', password='fd4uKfNxvp')
+    #DB INFO:
+    #TABLE: crypto
+    #COLLUMNS:
+    #   id - int (auto increment off with a static value of 1)
+    #   crypto - Long Text
+    #!!!!!A ROW MUST BE INSERTED INTO DATABASE WITH AN ID OF 1 AND A PLACEHOLDER VALUE FOR CRYPTO!!
+    #!!!!!APPLICATION WILL NOT WORK WITHOUT IT!!!!!!
+    connection = mysql.connector.connect(host='', database='', user='', password='')
+    
     try:
 
         mysql_select_query = "SELECT * FROM crypto"
