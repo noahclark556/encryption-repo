@@ -4,7 +4,7 @@
 To run the full program as python, execute the main.py.
 To run as executable (exe), execute DoubleEncrypt.exe.
 
-<h2>IMPORTANT!<h2><br/>A row with a static id of 1 must be inserted into database as well as a placeholder
+<h2>IMPORTANT!</h2><br/>A row with a static id of 1 must be inserted into database as well as a placeholder
 string value for crypto collumn or this application will fail!
 <br/>
 <b>SETUP:</b><br/>
