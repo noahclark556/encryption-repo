@@ -4,6 +4,16 @@
 To run the full program as python, execute the main.py.
 To run as executable (exe), execute DoubleEncrypt.exe.
 
+<h2 style="color:red;">IMPORTANT!<h2><p> A row with a static id of 1 must be inserted into database as well as a placeholder
+string for crypto collumn or this application will fail!<m/p>
+
+<b>SETUP:</b><br/>
+BEFORE USING:
+Edit parseUpload.py and tables.py and input your own database information based on the information provided in the code
+comments. You can either have a database set up on your own system with applications like XAMPP/WAMP, or you can use an
+online host. 
+<br/>
+
 <b>COMMANDS:</b><br/>
 c - create and upload a new key/crypto<br/>
 e - encrypt using currently uploaded crypto<br/>
